@@ -68,8 +68,12 @@ Distributions of interactions during program execution (blue bars represent inte
 
 ### Elevator
 <a href="/resources/Elevator.png"><img alt="Elevator" src="/resources/Elevator.png" width="800"/></a>
-### Checkstyle
-<a href="/r
+
+### GPL
+<a href="/resources/GPL.png"><img alt="Checkstyle" src="/resources/GPL.png" width="800"/></a>
+
+### Prevayler
+<a href="/resources/Prevayler.png"><img alt="Checkstyle" src="/resources/Prevayler.png" width="800"/></a>
 
 ### Checkstyle
 <a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/Checkstyle.png" width="800"/></a>
