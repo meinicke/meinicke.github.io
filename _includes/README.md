@@ -67,7 +67,7 @@ add diagrams here
 Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows the context size(#features in the context)):
 
 ### Checkstyle
-<a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/Checkstyle.png" /></a>
+<a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/Checkstyle.png" width="800"/></a>
 
 ##Credits
 
