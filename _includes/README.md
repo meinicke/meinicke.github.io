@@ -69,6 +69,9 @@ Distributions of interactions during program execution (blue bars represent inte
 ### Elevator
 <a href="/resources/Elevator.png"><img alt="Elevator" src="/resources/Elevator.png" width="800"/></a>
 
+### Mine Pump
+<a href="/resources/Mine.png"><img alt="Elevator" src="/resources/Mine.png" width="800"/></a>
+
 ### GPL
 <a href="/resources/GPL.png"><img alt="Checkstyle" src="/resources/GPL.png" width="800"/></a>
 
