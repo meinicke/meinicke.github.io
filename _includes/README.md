@@ -66,7 +66,7 @@ add diagrams here
 
 Distributions of interactions during program execution:
 
-<a href="http://ckaestne.github.com/TypeChef/typechef-poster.png"><img alt="TypeChef Poster" src="http://ckaestne.github.com/TypeChef/typechef-poster-small.png" /></a>
+<a href="complexCheckStyleElevator.pdf"><img alt="Checkstyle" src="complexCheckStyleElevator.pdf" /></a>
 
 ##Credits
 
