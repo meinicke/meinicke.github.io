@@ -7,15 +7,13 @@ VarexJ is based on Java Pathfinder v7.0 (rev 1155+) see: http://javapathfinder.s
 
 JDK 7 is required.
 
-
 Build
 -----
 
 Import the project into eclipse.
 
-If it does not build automatically, right-click on the build.xml \ run as \ Ant BUild
+If it does not build automatically, right-click on the build.xml "\run as\Ant Build"
 The build process has to be run with JDK 7, JRE will not work.
-
 
 JPF options
 -----------
@@ -37,6 +35,16 @@ Specify conditional boolean fields
 
 	@Conditional
 	static FEATURE = true;
+	
+	int metod() {
+		int i = 0;
+		if (FEATURE) {
+			i++;
+		}
+		return i;
+	}
+	
+	-> Choice(FEATURE, 1, 0)
 
 FEATURE is used as if it has both values true and false. 
 
