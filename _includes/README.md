@@ -66,9 +66,7 @@ add diagrams here
 
 Distributions of interactions during program execution:
 
-<iframe src="complexCheckStyleElevator.pdf" title="your_title" align="top" height="620" width="100%" frameborder="0" scrolling="auto" target="Message">
-
-<a href="complexCheckStyleElevator.pdf"><img alt="Checkstyle" src="complexCheckStyleElevator.pdf" /></a>
+<a href="resources/Checkstyle.pdg"><img alt="Checkstyle" src="resources/Checkstyle.pdg" /></a>
 
 ##Credits
 
