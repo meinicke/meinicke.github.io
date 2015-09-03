@@ -7,6 +7,8 @@ VarexJ is based on Java Pathfinder v7.0 (rev 1155+) see: http://javapathfinder.s
 
 JDK 7 is required.
 
+#Usage
+
 Build
 -----
 
