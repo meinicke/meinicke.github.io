@@ -57,6 +57,13 @@ b) as JVM via command line:
 
 `java -jar ..\RunJPF.jar +native_classpath=.."path to VarexJ"\lib\* +search.class=.search.RandomSearch +featuremodel="path to the feature model"\model.dimacs +choice=TreeChoice +factory=BDD +classpath="path to the application"\bin\ A.B.Main args `
 
+Credits
+-------
+
+* [Jens Meinicke](http://wwwiti.cs.uni-magdeburg.de/~meinicke/) (University of Magdeburg, project lead)
+* [Christian Kaestner](http://www.cs.cmu.edu/~ckaestne/) (Carnegie Mellon University)
+* [Chu-Pan Wong](https://www.cs.cmu.edu/~chupanw/) (Carnegie Mellon University)
+
 Publications
 ------------
 
