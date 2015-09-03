@@ -8,7 +8,8 @@ VarexJ is based on Java Pathfinder v7.0 (rev 1155+) see: http://javapathfinder.s
 JDK 7 is required.
 
 
-# Build:
+Build:
+------
 
 Import the project into eclipse.
 
@@ -16,7 +17,8 @@ If it does not build automatically, right-click on the build.xml \ run as \ Ant 
 The build process has to be run with JDK 7, JRE will not work.
 
 
-# JPF options:
+JPF options:
+------------
 
 Variability-Aware options:
 
@@ -37,7 +39,8 @@ Variability-Aware options:
 
 FEATURE is used as if it has both values true and false. 
 
-# Run VarexJ:
+Run VarexJ:
+-----------
 
 a) as test: see test package "cmu.*", it contains several examples for variability-aware execution
 
