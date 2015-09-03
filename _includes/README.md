@@ -64,8 +64,9 @@ add diagrams here
 
 ##Understanding Interactions
 
-Distributions of interactions during program execution:
+Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows the context size(#features in the context)):
 
+### Checkstyle
 <a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/Checkstyle.png" /></a>
 
 ##Credits
