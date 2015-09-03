@@ -9,16 +9,15 @@ JDK 7 is required.
 
 #Usage
 
-Build
------
+##Build
 
 Import the project into eclipse.
 
 If it does not build automatically, right-click on the build.xml "\run as\Ant Build"
 The build process has to be run with JDK 7, JRE will not work.
 
-JPF options
------------
+##JPF options
+
 
 Variability-Aware options:
 
@@ -30,8 +29,7 @@ Variability-Aware options:
 	`featuremodel="path"\model.dimacs`
 * set method frame [StackHandler] (currently only one type supported)
 
-Specify conditional boolean fields
-----------------------------------
+##Specify conditional boolean fields
 
 	import gov.nasa.jpf.annotation.Conditional;
 
@@ -50,8 +48,7 @@ Specify conditional boolean fields
 
 FEATURE is used as if it has both values true and false. 
 
-Run VarexJ
-----------
+##Run VarexJ
 
 a) as test: see test package "cmu.*", it contains several examples for variability-aware execution
 
@@ -61,26 +58,23 @@ b) as JVM via command line:
 
 #Evaluation
 
-Sharing
--------
+##Sharing
 
 add diagrams here
 
-Understanding Interactions
---------------------------
+##Understanding Interactions
 
-add graphs here
+Distributions of interactions during program execution:
 
+<a href="resources/Checkstyle.pdg"><img alt="Checkstyle" src="resources/Checkstyle.pdg" /></a>
 
-Credits
--------
+##Credits
 
 * [Jens Meinicke](http://wwwiti.cs.uni-magdeburg.de/~meinicke/) (University of Magdeburg, project lead)
 * [Christian Kaestner](http://www.cs.cmu.edu/~ckaestne/) (Carnegie Mellon University)
 * [Chu-Pan Wong](https://www.cs.cmu.edu/~chupanw/) (Carnegie Mellon University)
 
-Publications
-------------
+##Publications
 
 Initial Work:
 
