@@ -5,8 +5,6 @@ Highly-configurable systems allow users to achieve their specific needs. Such so
 
 VarexJ is based on Java Pathfinder v7.0 (rev 1155+) see: http://javapathfinder.sourceforge.net/.
 
-JDK 7 is required.
-
 #Usage
 
 ##Build
@@ -15,6 +13,8 @@ Import the project into eclipse.
 
 If it does not build automatically, right-click on the build.xml "\run as\Ant Build"
 The build process has to be run with JDK 7, JRE will not work.
+
+JDK 7 is required.
 
 ##JPF options
 
