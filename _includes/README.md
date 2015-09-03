@@ -57,3 +57,9 @@ b) as JVM via command line:
 
 `java -jar ..\RunJPF.jar +native_classpath=.."path to VarexJ"\lib\* +search.class=.search.RandomSearch +featuremodel="path to the feature model"\model.dimacs +choice=TreeChoice +factory=BDD +classpath="path to the application"\bin\ A.B.Main args `
 
+Publications
+------------
+
+Initial Work:
+
+> Jens Meinicke. [VarexJ: A Variability-Aware Interpreter for Java Application](http://wwwiti.cs.uni-magdeburg.de/iti_db/publikationen/ps/auto/M14.pdf). Master's thesis, University of Magdeburg, Germany, December 2014.
