@@ -36,7 +36,7 @@ Specify conditional boolean fields
 	@Conditional
 	static FEATURE = true;
 	
-	int metod() {
+	int method() {
 		int i = 0;
 		if (FEATURE) {
 			i++;
