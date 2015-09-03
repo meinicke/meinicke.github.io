@@ -66,7 +66,7 @@ add diagrams here
 
 Distributions of interactions during program execution:
 
-<a href="resources/Checkstyle.pdg"><img alt="Checkstyle" src="resources/Checkstyle.pdg" /></a>
+<a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/Checkstyle.png" /></a>
 
 ##Credits
 
