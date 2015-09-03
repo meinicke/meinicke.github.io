@@ -72,6 +72,9 @@ Distributions of interactions during program execution (blue bars represent inte
 ### GPL
 <a href="/resources/GPL.png"><img alt="Checkstyle" src="/resources/GPL.png" width="800"/></a>
 
+### ZipMe
+<a href="/resources/ZipMe.png"><img alt="Checkstyle" src="/resources/ZipMe.png" width="800"/></a>
+
 ### QuEval
 <a href="/resources/QuEval.png"><img alt="Checkstyle" src="/resources/QuEval.png" width="800"/></a>
 
