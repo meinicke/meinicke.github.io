@@ -34,19 +34,29 @@ Variability-Aware options:
 	import gov.nasa.jpf.annotation.Conditional;
 
 	@Conditional
-	static FEATURE = true;
+	static A = true;
+	@Conditional
+	static B = true;
 	
-	int method() {
+	void run() {
 		int i = 0;
-		if (FEATURE) {
-			i++;
+		i = i + 2;
+		if (A) {
+			i++; 
 		}
-		return i;
+		i = i * 2;
+		if (B) {
+			i = deci(i);
+		}
+		i = i - 1;
 	}
-	
-	-> Choice(FEATURE, 1, 0)
+	int deci(int k) {
+		return k / 10;
+	}
 
-FEATURE is used as if it has both values true and false. 
+A and B are used as if they have both values true and false. 
+
+<a href="/resources/VarexJ/Example/trace.png"><img alt="VAriability-Aware Trace" src="/resources/VarexJ/Example/trace.png" width="400"/></a>
 
 ##Run VarexJ
 
@@ -67,28 +77,28 @@ add diagrams here
 Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows interactions on the program flow (#features in the context)):
 
 ### Elevator
-<a href="/resources/Elevator.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Elevator.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/Elevator.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Elevator.png" width="800"/></a>
 
 ### Mine Pump
-<a href="/resources/Mine.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Mine.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/Mine.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Mine.png" width="800"/></a>
 
 ### E-Mail
-<a href="/resources/Email.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Email.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/Email.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Email.png" width="800"/></a>
 
 ### GPL
-<a href="/resources/GPL.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/GPL.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/GPL.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/GPL.png" width="800"/></a>
 
 ### ZipMe
-<a href="/resources/ZipMe.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/ZipMe.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/ZipMe.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/ZipMe.png" width="800"/></a>
 
 ### QuEval
-<a href="/resources/QuEval.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/QuEval.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/QuEval.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/QuEval.png" width="800"/></a>
 
 ### Prevayler
-<a href="/resources/Prevayler.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Prevayler.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/Prevayler.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Prevayler.png" width="800"/></a>
 
 ### Checkstyle
-<a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Checkstyle.png" width="800"/></a>
+<a href="/resources/VarexJ/Traces/Checkstyle.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Checkstyle.png" width="800"/></a>
 
 ##Credits
 
