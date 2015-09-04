@@ -18,13 +18,13 @@ JDK 7 is required.
 
 ##VarexJ options
 
-* set feature expression [SAT, BDD]
+* set feature expression [SAT, BDD]:
 	`factory=BDD`
-* set choice type [TreeChoice, MapChoice]
+* set choice type [TreeChoice, MapChoice]:
 	`choice=TreeChoice`
 * define constraints of the application with a dimacs file (can be created with [FeatureIDE](http://fosd.net/fide)):
 	`featuremodel="path"\model.dimacs`
-* define whether a method call on multiple opjects (i.e., Choice(Feature, Object1, Object2)) of the same type should be shared
+* define whether a method call on multiple opjects (i.e., Choice(Feature, Object1, Object2)) of the same type should be shared:
 	`invocation=true`
 
 ##Specify conditional boolean fields
