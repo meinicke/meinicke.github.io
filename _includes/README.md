@@ -64,7 +64,7 @@ add diagrams here
 
 ##Understanding Interactions
 
-Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows the context size(#features in the context)):
+Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows interactions on the program flow (#features in the context)):
 
 ### Elevator
 <a href="/resources/Elevator.png"><img alt="Elevator" src="/resources/Elevator.png" width="800"/></a>
