@@ -30,7 +30,7 @@ Variability-Aware options:
 * set method frame [StackHandler] (currently only one type supported)
 
 ##Specify conditional boolean fields
-<a href="/resources/VarexJ/Example/trace.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Example/trace.png" height="360"/></a>
+<a href="/resources/VarexJ/Example/trace.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Example/trace.png" height="370"/></a>
 
 	import gov.nasa.jpf.annotation.Conditional;
 
