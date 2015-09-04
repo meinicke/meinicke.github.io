@@ -67,28 +67,28 @@ add diagrams here
 Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows interactions on the program flow (#features in the context)):
 
 ### Elevator
-<a href="/resources/Elevator.png"><img alt="Elevator" src="/resources/Elevator.png" width="800"/></a>
+<a href="/resources/Elevator.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Elevator.png" width="800"/></a>
 
 ### Mine Pump
-<a href="/resources/Mine.png"><img alt="Elevator" src="/resources/Mine.png" width="800"/></a>
+<a href="/resources/Mine.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Mine.png" width="800"/></a>
 
 ### E-Mail
-<a href="/resources/Email.png"><img alt="Elevator" src="/resources/Email.png" width="800"/></a>
+<a href="/resources/Email.png"><img alt="Elevator" src="/resources/VarexJ/Traces/Email.png" width="800"/></a>
 
 ### GPL
-<a href="/resources/GPL.png"><img alt="Checkstyle" src="/resources/GPL.png" width="800"/></a>
+<a href="/resources/GPL.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/GPL.png" width="800"/></a>
 
 ### ZipMe
-<a href="/resources/ZipMe.png"><img alt="Checkstyle" src="/resources/ZipMe.png" width="800"/></a>
+<a href="/resources/ZipMe.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/ZipMe.png" width="800"/></a>
 
 ### QuEval
-<a href="/resources/QuEval.png"><img alt="Checkstyle" src="/resources/QuEval.png" width="800"/></a>
+<a href="/resources/QuEval.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/QuEval.png" width="800"/></a>
 
 ### Prevayler
-<a href="/resources/Prevayler.png"><img alt="Checkstyle" src="/resources/Prevayler.png" width="800"/></a>
+<a href="/resources/Prevayler.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Prevayler.png" width="800"/></a>
 
 ### Checkstyle
-<a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/Checkstyle.png" width="800"/></a>
+<a href="/resources/Checkstyle.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Checkstyle.png" width="800"/></a>
 
 ##Credits
 
