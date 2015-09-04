@@ -83,6 +83,7 @@ b) as JVM via command line:
 
 add diagrams here
 -->
+
 #Understanding Interactions
 
 Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows interactions on the program flow (#features in the context)):
