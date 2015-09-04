@@ -95,6 +95,7 @@ Distributions of interactions during program execution (blue bars represent inte
 * [Jens Meinicke](http://wwwiti.cs.uni-magdeburg.de/~meinicke/) (University of Magdeburg, project lead)
 * [Christian Kaestner](http://www.cs.cmu.edu/~ckaestne/) (Carnegie Mellon University)
 * [Chu-Pan Wong](https://www.cs.cmu.edu/~chupanw/) (Carnegie Mellon University)
+* * [Chu-Pan Wong](https://www.cs.cmu.edu/~chupanw/) (Carnegie Mellon University)
 
 ##Publications
 
