@@ -99,11 +99,11 @@ Distributions of interactions during program execution (blue bars represent inte
 
 ##Credits
 
-* [Jens Meinicke](http://wwwiti.cs.uni-magdeburg.de/~meinicke/) (University of Magdeburg, project lead)
-* [Christian Kästner](http://www.cs.cmu.edu/~ckaestne/) (Carnegie Mellon University)
-* [Chu-Pan Wong](https://www.cs.cmu.edu/~chupanw/) (Carnegie Mellon University)
-* [Thomas Thüm](https://www.tu-braunschweig.de/isf/team/thuem) (TU Braunschweig)
-* [Gunter Saake](http://wwwiti.cs.uni-magdeburg.de/~saake/) (University of Magdeburg)
+* [Jens Meinicke](http://wwwiti.cs.uni-magdeburg.de/~meinicke/) (University of Magdeburg, Germany, project lead)
+* [Christian Kästner](http://www.cs.cmu.edu/~ckaestne/) (Carnegie Mellon University, USA)
+* [Chu-Pan Wong](https://www.cs.cmu.edu/~chupanw/) (Carnegie Mellon University, USA)
+* [Thomas Thüm](https://www.tu-braunschweig.de/isf/team/thuem) (TU Braunschweig, Germany)
+* [Gunter Saake](http://wwwiti.cs.uni-magdeburg.de/~saake/) (University of Magdeburg, Germany)
 
 ##Publications
 
