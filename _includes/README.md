@@ -24,7 +24,8 @@ JDK 7 is required.
 	`choice=TreeChoice`
 * define constraints of the application with a dimacs file (can be created with [FeatureIDE](http://fosd.net/fide)):
 	`featuremodel="path"\model.dimacs`
-* set method frame [StackHandler] (currently only one type supported)
+* define whether a method call on multiple opjects (i.e., Choice(Feature, Object1, Object2)) of the same type should be shared
+	`invocation=true`
 
 ##Specify conditional boolean fields
 <a href="/resources/VarexJ/Example/trace.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Example/trace.png" height="368"/></a>
