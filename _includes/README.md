@@ -3,7 +3,7 @@ VarexJ
 
 Highly-configurable systems allow users to achieve their specific needs. Such software systems are flexible, but come with difficulties for program analyses, as it is usually not possible to test all combinations of options separately due to the configuration space explosion.  Variability-aware approaches exploit redundancies among configurations to share analysis efforts. Variability-aware execution aggressively shares computations and data in program execution across multiple configurations, for example, when executing a test over all configurations. By maximizing sharing, the approach can outperform traditional approaches by orders of magnitude on many highly-configurable systems, without falling back to incomplete sampling strategies.  We investigate and evaluate the impact of interactions on sharing and scalability to current testing approaches using several small benchmark programs. We show that sharing reduces the number of executed instructions significantly, while the effort to execute them usually stays low. We applied VarexJ to several larger real-world applications to  illustrate typical sharing potential in real-world applications. Finally, we found that options high interact on data in these systems, but only local, orthogonal and rare.
 
-VarexJ is based on Java Pathfinder v7.0 (rev 1155+) see: http://javapathfinder.sourceforge.net/.
+VarexJ is based on [JavaPathfinder](http://javapathfinder.sourceforge.net/) v7.0 (rev 1155+).
 
 #Usage
 
@@ -16,16 +16,13 @@ The build process has to be run with JDK 7, JRE will not work.
 
 JDK 7 is required.
 
-##JPF options
-
-
-Variability-Aware options:
+##VarexJ options
 
 * set feature expression [SAT, BDD]
 	`factory=BDD`
 * set choice type [TreeChoice, MapChoice]
 	`choice=TreeChoice`
-* define constraints of the application with a dimacs file can be created with FeatureIDE (http://fosd.net/fide):
+* define constraints of the application with a dimacs file (can be created with [FeatureIDE](http://fosd.net/fide)):
 	`featuremodel="path"\model.dimacs`
 * set method frame [StackHandler] (currently only one type supported)
 
