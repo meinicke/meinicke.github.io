@@ -63,7 +63,7 @@ b) as JVM via command line:
 
 `java -jar ..\RunJPF.jar +native_classpath=.."path to VarexJ"\lib\* +search.class=.search.RandomSearch +featuremodel="path to the feature model"\model.dimacs +choice=TreeChoice +factory=BDD +classpath="path to the application"\bin\ A.B.Main args `
 
-#Evaluation
+<!--#Evaluation
 
 ##Sharing
 
@@ -82,8 +82,8 @@ b) as JVM via command line:
 	}
 
 add diagrams here
-
-##Understanding Interactions
+-->
+#Understanding Interactions
 
 Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows interactions on the program flow (#features in the context)):
 
