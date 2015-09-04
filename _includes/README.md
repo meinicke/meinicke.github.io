@@ -67,8 +67,7 @@ b) as JVM via command line:
 
 ##Sharing
 
-<a href="/resources/VarexJ/Sharing/Explosion.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Sharing/Explosion.png" height="100"/></a>
-import gov.nasa.jpf.annotation.Conditional;
+<a href="/resources/VarexJ/Sharing/Explosion.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Sharing/Explosion.png" height="300"/></a>
 
 	boolean O1, O2, ...
 	void method() {
