@@ -67,7 +67,7 @@ b) as JVM via command line:
 
 ##Sharing
 
-<a href="/resources/VarexJ/Sharing/Explosion.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Sharing/Explosion.png" width="500"/></a>
+<a href="/resources/VarexJ/Sharing/Explosion.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Sharing/Explosion.png" width="600"/></a>
 
 	boolean O1, O2, ...
 	void method() {
