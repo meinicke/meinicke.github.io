@@ -56,7 +56,7 @@ Variability-Aware options:
 
 A and B are used as if they have both values true and false. 
 
-<a href="/resources/VarexJ/Example/trace.png"><img alt="VAriability-Aware Trace" src="/resources/VarexJ/Example/trace.png" width="400"/></a>
+<a href="/resources/VarexJ/Example/trace.png"><img alt="VAriability-Aware Trace" src="/resources/VarexJ/Example/trace.png" height="400"/></a>
 
 ##Run VarexJ
 
