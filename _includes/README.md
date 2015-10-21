@@ -65,7 +65,7 @@ b) as JVM via command line:
 
 # Scalability
 
-We did several experiments on small bechmark programms to analyze the scalability of variability-aware execution. All benchmarks are adjusteble to the number of options from 1 to 100. The measured results are shown in the three middle diagrams. The most right diagramms show how the options interact on date and on the program flow. 
+We did several experiments on small bechmark programms to analyze the scalability of variability-aware execution compared to other approaches. All benchmarks are adjusteble to the number of options from 1 to 100. The measured results are shown in the three middle diagrams. The most right diagramms show how the options interact on date and on the program flow. 
 
 <a href="/resources/VarexJ/benchmarks.PNG"><img alt="Benchmarks" src="/resources/VarexJ/benchmarks.PNG" width="800"/></a>
 
