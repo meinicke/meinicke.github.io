@@ -69,6 +69,16 @@ We did several experiments on small bechmark programms to analyze the scalabilit
 
 <a href="/resources/VarexJ/benchmarks.PNG"><img alt="Benchmarks" src="/resources/VarexJ/benchmarks.PNG" width="800"/></a>
 
+[JavaPAthfinder](http://babelfish.arc.nasa.gov/trac/jpf)
+
+[JPF-symbolic](http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc)
+
+[JPF-BDD]
+
+[SPLat](http://www.cin.ufpe.br/~pbsf/publications/kim-etal-fse2013.pdf)
+[code](https://github.com/meinicke/VarexJ/tree/master/SPLat)
+
+
 #Understanding Interactions
 
 Distributions of interactions during program execution (blue bars represent interactions on data, the red line shows interactions on the program flow (#features in the context)):
