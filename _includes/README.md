@@ -71,7 +71,7 @@ We did several experiments on small bechmark programms to analyze the scalabilit
 
 We compared the scalability of VarexJ with the following tools:
 
-[JavaPAthfinder](http://babelfish.arc.nasa.gov/trac/jpf), [JPF-symbolic](http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc), [JPF-BDD](https://bitbucket.org/rhein/jpf-bdd/wiki/Home),
+[JavaPathfinder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf), [JPF-symbolic](http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc), [JPF-bdd](https://bitbucket.org/rhein/jpf-bdd/wiki/Home),
 [SPLat](http://www.cin.ufpe.br/~pbsf/publications/kim-etal-fse2013.pdf)([source code](https://github.com/meinicke/VarexJ/tree/master/SPLat))
 
 
