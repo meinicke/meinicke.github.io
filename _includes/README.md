@@ -73,7 +73,7 @@ We did several experiments on small bechmark programms to analyze the scalabilit
 
 [JPF-symbolic](http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc)
 
-[JPF-BDD]
+[JPF-BDD](https://bitbucket.org/rhein/jpf-bdd/wiki/Home)
 
 [SPLat](http://www.cin.ufpe.br/~pbsf/publications/kim-etal-fse2013.pdf)
 [code](https://github.com/meinicke/VarexJ/tree/master/SPLat)
