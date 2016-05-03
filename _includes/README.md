@@ -105,6 +105,10 @@ Distributions of interactions during program execution (blue bars represent inte
 ### Checkstyle
 <a href="/resources/VarexJ/Traces/Checkstyle.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Checkstyle.png" width="800"/></a>
 
+### Checkstyle
+<a href="/resources/VarexJ/Traces/Jetty.png"><img alt="Checkstyle" src="/resources/VarexJ/Traces/Jetty.png" width="800"/></a>
+
+
 ##Credits
 
 * [Jens Meinicke](http://wwwiti.cs.uni-magdeburg.de/~meinicke/) (University of Magdeburg, Germany, project lead)
