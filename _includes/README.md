@@ -9,10 +9,12 @@ VarexJ is based on [JavaPathfinder](http://javapathfinder.sourceforge.net/) v7.0
 
 ##Build
 
-Import the project into eclipse.
+Use gradle to build the project (e.g., ./gradlew build)
 
-If it does not build automatically, right-click on the build.xml "\run as\Ant Build"
-The build process has to be run with JDK 7, JRE will not work.
+Within Eclipse you can use the gradle plugin: https://github.com/spring-projects/eclipse-integration-gradle/
+
+* On the "build.gradle" file Run as/Gradle build... Specify "build" at the Gradle Tasks page and press run
+* You may need to generate eclipse project files: Specify "eclipse" at the Gradle Tasks page
 
 JDK 7 is required.
 
@@ -63,26 +65,17 @@ b) as JVM via command line:
 
 `java -jar ..\RunJPF.jar +native_classpath=.."path to VarexJ"\lib\* +search.class=.search.RandomSearch +featuremodel="path to the feature model"\model.dimacs +choice=TreeChoice +factory=BDD +classpath="path to the application"\bin\ A.B.Main args `
 
-<!--#Evaluation
+# Scalability
 
-##Sharing
+We did several experiments on small bechmark programms to analyze the scalability of variability-aware execution compared to other approaches. All benchmarks are adjusteble to the number of options from 1 to 100. The measured results are shown in the three middle diagrams. The most right diagramms show how the options interact on data and on the program flow. 
 
-<a href="/resources/VarexJ/Sharing/Explosion.png"><img align="right" alt="VAriability-Aware Trace" src="/resources/VarexJ/Sharing/Explosion.png" width="580"/></a>
+<a href="/resources/VarexJ/benchmarks.PNG"><img alt="Benchmarks" src="/resources/VarexJ/benchmarks.PNG" width="800"/></a>
 
-	boolean O1, O2, ...
-	void method() {
-		int i = 1;
-		if (O1) {
-			i += 2; 
-		}
-		if (O1) {
-			i += 4; 
-		}
-		...
-	}
+We compared the scalability of VarexJ with the following tools:
 
-add diagrams here
--->
+[JavaPathfinder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf), [JPF-symbolic](http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc), [JPF-bdd](https://bitbucket.org/rhein/jpf-bdd/wiki/Home),
+[SPLat](http://www.cin.ufpe.br/~pbsf/publications/kim-etal-fse2013.pdf)([source code](https://github.com/meinicke/VarexJ/tree/master/SPLat))
+
 
 #Understanding Interactions
 
